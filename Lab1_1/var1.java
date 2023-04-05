@@ -1,13 +1,22 @@
-package Lab2;
+package Lab1_1;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 public class One {
     public static void main(String[] args) {
+        int n = 0;
         Scanner userInput = new Scanner(System.in);
-        System.out.print("Введите количество строк: ");
-        int n = userInput.nextInt();
-        userInput.nextLine();
+        while (true) {
+            System.out.print("Введите количество строк: ");
+            try {
+                n = userInput.nextInt();
+                userInput.nextLine();
+                break;
+            } catch (InputMismatchException fg){
+                System.out.println("Вы ввели не число. ");
+            }
+        }
 
         List<String> list = getList(n, userInput);
         System.out.println(list);
