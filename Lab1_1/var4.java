@@ -3,7 +3,7 @@ package Lab1_1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Four {
+public class var4 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         String texte;

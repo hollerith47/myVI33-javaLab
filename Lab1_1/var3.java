@@ -1,7 +1,7 @@
 package Lab1_1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class Three {
+public class var3 {
     public static void main(String[] args) {
         int n = 0;
         Scanner userInput = new Scanner(System.in);

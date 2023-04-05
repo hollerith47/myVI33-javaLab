@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Two {
+public class var2 {
     public static void main(String[] args) {
         int n = 0;
         Scanner userInput = new Scanner(System.in);

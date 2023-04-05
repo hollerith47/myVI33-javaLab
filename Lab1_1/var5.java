@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Five {
+public class var5 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Entrez le texte : ");

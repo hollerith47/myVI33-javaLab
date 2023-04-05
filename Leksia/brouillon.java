@@ -1,3 +1,5 @@
+package Leksia;
+
 import java.util.Arrays;
 
 public class brouillon {

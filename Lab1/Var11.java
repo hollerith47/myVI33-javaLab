@@ -12,9 +12,9 @@ public class Var11 {
         System.out.println("Отсортированный массив: " + Arrays.toString(array));
 
         // Вывод суммы цифр каждого числа
-        for (int i = 0; i < array.length; i++) {
-            int sum = getSumOfDigits(array[i]);
-            System.out.println("Сумма цифр числа " + array[i] + " равна " + sum);
+        for (int i : array) {
+            int sum = getSumOfDigits(i);
+            System.out.println("Сумма цифр числа " + i + " равна " + sum);
         }
     }
 

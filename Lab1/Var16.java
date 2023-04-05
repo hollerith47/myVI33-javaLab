@@ -18,7 +18,6 @@ public class Var16 {
             b = a % b;
             a = temp;
         }
-
         return a;
     }
 }
