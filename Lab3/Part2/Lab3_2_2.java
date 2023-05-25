@@ -5,8 +5,6 @@ public class Lab3_2_2 {
         int a = 3;
         int b = 56;
         questionBuilder(a, b);
-
-
     }
 
     public static void questionBuilder(int a, int b){
