@@ -1,0 +1,12 @@
+.body{
+    -fx-background-color: #e6e6fa;
+}
+.button{
+    -fx-transition: ease-in-out 3s;
+    -fx-cursor: hand;
+}
+.button:hover{
+    -fx-background-color: rgba(37, 102, 236, 0.94);
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+}
